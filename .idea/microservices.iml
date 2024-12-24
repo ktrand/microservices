@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/NotificationService/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/NotificationService/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/TaskService/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/TaskService/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/UserService/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/UserService/tests" isTestSource="true" packagePrefix="App\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/UserService/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/UserService/spec" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/runtime" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/runtime" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/TaskService/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/doctrine-migrations-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/doctrine/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/cache-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/doctrine-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/dotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/flex" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/framework-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/runtime" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/UserService/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/doctrine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/doctrine-migrations-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/event-manager" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/migrations" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/orm" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/persistence" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/doctrine/sql-formatter" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/doctrine-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/password-hasher" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/property-access" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/property-info" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/security-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/security-core" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/security-csrf" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/security-http" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/type-info" />
+      <excludeFolder url="file://$MODULE_DIR$/NotificationService/vendor/symfony/messenger" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

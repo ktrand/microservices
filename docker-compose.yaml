@@ -1,0 +1,92 @@
+services:
+#  user-service:
+#    build:
+#      context: .
+#      dockerfile: UserService/docker/Dockerfile
+#    volumes:
+#      - ./UserService:var/www/app
+#    depends_on:
+#      - user-service-db
+#    container_name: user-service-app
+#    ports:
+#      - "50051:50051"
+
+#  task-service:
+#    build:
+#      context: .
+#      dockerfile: TaskService/docker/Dockerfile
+#    volumes:
+#      - ./TaskService:var/www/app
+#    depends_on:
+#      - task-service-db
+#    container_name: task-service-app
+#    ports:
+#      - "50052:50052"
+
+  notification-service:
+    build:
+      context: .
+      dockerfile: NotificationService/docker/Dockerfile
+    volumes:
+      - ./NotificationService:/var/www/app
+    depends_on:
+      - notification-service-db
+    container_name: notification-service-app
+    ports:
+      - "50053:50053"
+
+#  user-service-db:
+#    image: postgres:17.0
+#    volumes:
+#      - user-service-db-data:/var/lib/postgresql/data
+#    environment:
+#      USER_INITDB_DATABASE: ${USER_INITDB_DATABASE}
+#      USER_INITDB_ROOT_USERNAME: ${USER_INITDB_ROOT_USERNAME}
+#      USER_INITDB_ROOT_PASSWORD: ${USER_INITDB_ROOT_PASSWORD}
+#    ports:
+#      - "${USER_DB_PORT}:5432"
+#    container_name: db-user-service
+
+  notification-service-db:
+    image: mongo:6.0
+    volumes:
+      - notification-service-db-data:/data/db
+    environment:
+      NOTIFICATION_INITDB_DATABASE: ${NOTIFICATION_INITDB_DATABASE}
+      NOTIFICATION_INITDB_ROOT_USERNAME: ${NOTIFICATION_INITDB_ROOT_USERNAME}
+      NOTIFICATION_INITDB_ROOT_PASSWORD: ${NOTIFICATION_INITDB_ROOT_PASSWORD}
+    ports:
+      - "${NOTIFICATION_DB_PORT}:27017"
+    container_name: db-notification-service
+
+#  task-service-db:
+#    image: mongo:6.0
+#    volumes:
+#      - task-service-db-data:/data/db
+#    environment:
+#      TASK_INITDB_DATABASE: ${TASK_INITDB_DATABASE}
+#      TASK_INITDB_ROOT_USERNAME: ${TASK_INITDB_ROOT_USERNAME}
+#      TASK_INITDB_ROOT_PASSWORD: ${TASK_INITDB_ROOT_PASSWORD}
+#    ports:
+#      - "${TASK_DB_PORT}:27017"
+#    container_name: db-task-service
+
+  rabbitmq:
+    build:
+      context: .
+      dockerfile: docker/rabbitmq.Dockerfile
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    container_name: rabbitmq
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+
+volumes:
+#  user-service-db-data:
+  notification-service-db-data:
+#  task-service-db-data:
+  rabbitmq_data:

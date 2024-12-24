@@ -1,0 +1,30 @@
+2024-12-24 13:25:41,837 INFO supervisord started with pid 1
+2024-12-24 13:25:42,840 INFO spawned: 'php-fpm' with pid 48
+2024-12-24 13:25:42,844 INFO spawned: 'messenger_consumer_00' with pid 49
+2024-12-24 13:25:42,922 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:25:44,494 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-24 13:25:44,496 INFO spawned: 'messenger_consumer_00' with pid 52
+2024-12-24 13:25:44,563 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:25:46,568 INFO spawned: 'messenger_consumer_00' with pid 53
+2024-12-24 13:25:46,645 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:25:49,663 INFO spawned: 'messenger_consumer_00' with pid 54
+2024-12-24 13:25:49,728 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:25:49,730 INFO gave up: messenger_consumer_00 entered FATAL state, too many start retries too quickly
+2024-12-24 13:26:25,777 WARN received SIGQUIT indicating exit request
+2024-12-24 13:26:25,778 INFO waiting for php-fpm to die
+2024-12-24 13:26:26,799 INFO stopped: php-fpm (exit status 0)
+2024-12-24 13:26:29,039 INFO supervisord started with pid 1
+2024-12-24 13:26:30,041 INFO spawned: 'php-fpm' with pid 48
+2024-12-24 13:26:30,053 INFO spawned: 'messenger_consumer_00' with pid 49
+2024-12-24 13:26:30,103 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:26:31,131 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-12-24 13:26:31,136 INFO spawned: 'messenger_consumer_00' with pid 52
+2024-12-24 13:26:31,166 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:26:33,171 INFO spawned: 'messenger_consumer_00' with pid 53
+2024-12-24 13:26:33,222 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:26:36,231 INFO spawned: 'messenger_consumer_00' with pid 54
+2024-12-24 13:26:36,273 WARN exited: messenger_consumer_00 (exit status 1; not expected)
+2024-12-24 13:26:37,275 INFO gave up: messenger_consumer_00 entered FATAL state, too many start retries too quickly
+2024-12-24 13:55:42,464 WARN received SIGQUIT indicating exit request
+2024-12-24 13:55:42,467 INFO waiting for php-fpm to die
+2024-12-24 13:55:43,541 INFO stopped: php-fpm (exit status 0)

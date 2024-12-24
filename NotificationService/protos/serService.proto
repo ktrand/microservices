@@ -1,0 +1,15 @@
+// The user service definition.
+service User {
+  rpc FindById (FindByIdRequest) returns (FindByIdReply) {}
+}
+
+// The request message containing the user's id.
+message FindByIdRequest {
+  string id= 1;
+}
+
+// The response message containing the user
+message FindByIdReply {
+  string id = 1;
+  string name = 2;
+}
